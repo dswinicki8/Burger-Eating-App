@@ -1,0 +1,26 @@
+{
+  "name": "burger-eater-app",
+  "version": "1.0.0",
+  "description": "App that lets users input the names of burgers they want to eat.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dswinicki8/Burger-Eater-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dswinicki8/Burger-Eater-App/issues"
+  },
+  "homepage": "https://github.com/dswinicki8/Burger-Eater-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1"
+  }
+}
